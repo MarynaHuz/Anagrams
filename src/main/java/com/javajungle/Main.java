@@ -10,11 +10,11 @@ public class Main {
 
         while(firstLetter < lastLetter) {
 
-            if (!isLetterChar(reversedWord[firstLetter])){
+            if (isNonLetterChar(reversedWord[firstLetter])){
                 firstLetter++;
                 continue;
             }
-            if (!isLetterChar(reversedWord[lastLetter])) {
+            if (isNonLetterChar(reversedWord[lastLetter])) {
                 lastLetter--;
                 continue;
             }
@@ -38,8 +38,8 @@ public class Main {
         return reversedText.toString().trim();
     }
 
-    private static boolean isLetterChar(char character) {
-        return Pattern.matches("[a-zA-Z]", String.valueOf(character));
+    private static boolean isNonLetterChar(char character) {
+        return !Pattern.matches("[a-zA-Z]", String.valueOf(character));
     }
 
 

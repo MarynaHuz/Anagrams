@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2cf01ec3-2f3f-4c26-b7e0-298b39a2c1b9" name="Changes" comment="- return type for the method reverseOneWord was changed;&#10;- a method reverse was extracted from the method reverseOneWord to avoid code duplication;&#10;- a method reverseString was created.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="2cf01ec3-2f3f-4c26-b7e0-298b39a2c1b9" name="Changes" comment="the method reverseOneWord was updated">
       <change beforePath="$PROJECT_DIR$/src/main/java/com/javajungle/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javajungle/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -87,7 +86,7 @@
       <workItem from="1684223767284" duration="114000" />
       <workItem from="1684223898667" duration="31000" />
       <workItem from="1684223947409" duration="163000" />
-      <workItem from="1684224144506" duration="20628000" />
+      <workItem from="1684224144506" duration="21952000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1684164979951</created>
@@ -117,7 +116,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684237339569</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="the method reverseOneWord was updated">
+      <created>1684249861106</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1684249861106</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,6 +134,7 @@
     <MESSAGE value="a new branch &quot;dev&quot; was added" />
     <MESSAGE value="a method &quot;reverse one word&quot; was created" />
     <MESSAGE value="- return type for the method reverseOneWord was changed;&#10;- a method reverse was extracted from the method reverseOneWord to avoid code duplication;&#10;- a method reverseString was created." />
-    <option name="LAST_COMMIT_MESSAGE" value="- return type for the method reverseOneWord was changed;&#10;- a method reverse was extracted from the method reverseOneWord to avoid code duplication;&#10;- a method reverseString was created." />
+    <MESSAGE value="the method reverseOneWord was updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="the method reverseOneWord was updated" />
   </component>
 </project>
