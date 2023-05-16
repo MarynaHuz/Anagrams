@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2cf01ec3-2f3f-4c26-b7e0-298b39a2c1b9" name="Changes" comment="initial commit">
+    <list default="true" id="2cf01ec3-2f3f-4c26-b7e0-298b39a2c1b9" name="Changes" comment="a new branch &quot;dev&quot; was added">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javajungle/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javajungle/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +29,14 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2Prmle6RjAFeYYiiElwB7GOgt4g" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -39,13 +49,32 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/Java projects/Anagrams",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.09398496",
+    "project.structure.side.proportion": "0.23755187",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Anagrams" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Anagrams" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -54,7 +83,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1684164153437</updated>
-      <workItem from="1684164154478" duration="2395000" />
+      <workItem from="1684164154478" duration="7058000" />
+      <workItem from="1684223729305" duration="31000" />
+      <workItem from="1684223767284" duration="114000" />
+      <workItem from="1684223898667" duration="31000" />
+      <workItem from="1684223947409" duration="163000" />
+      <workItem from="1684224144506" duration="1800000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1684164979951</created>
@@ -63,7 +97,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684164979951</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="a new branch &quot;dev&quot; was added">
+      <created>1684167048975</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1684167048975</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -71,6 +112,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="a new branch &quot;dev&quot; was added" />
+    <option name="LAST_COMMIT_MESSAGE" value="a new branch &quot;dev&quot; was added" />
   </component>
 </project>
