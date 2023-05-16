@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2cf01ec3-2f3f-4c26-b7e0-298b39a2c1b9" name="Changes" comment="the method reverseOneWord was updated">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/javajungle/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javajungle/Main.java" afterDir="false" />
+    <list default="true" id="2cf01ec3-2f3f-4c26-b7e0-298b39a2c1b9" name="Changes" comment="pom.xml file was updated">
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,37 +42,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Java projects/Anagrams",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.09398496",
-    "project.structure.side.proportion": "0.23755187",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Java projects/Anagrams&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.09398496&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.23755187&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="Anagrams" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="Anagrams" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-  </component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -86,7 +71,7 @@
       <workItem from="1684223767284" duration="114000" />
       <workItem from="1684223898667" duration="31000" />
       <workItem from="1684223947409" duration="163000" />
-      <workItem from="1684224144506" duration="21952000" />
+      <workItem from="1684224144506" duration="27380000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1684164979951</created>
@@ -123,7 +108,21 @@
       <option name="project" value="LOCAL" />
       <updated>1684249861106</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="the method isNonLetterChar was inverted">
+      <created>1684250141626</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1684250141626</updated>
+    </task>
+    <task id="LOCAL-00007" summary="pom.xml file was updated">
+      <created>1684253234066</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1684253234066</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,6 +134,8 @@
     <MESSAGE value="a method &quot;reverse one word&quot; was created" />
     <MESSAGE value="- return type for the method reverseOneWord was changed;&#10;- a method reverse was extracted from the method reverseOneWord to avoid code duplication;&#10;- a method reverseString was created." />
     <MESSAGE value="the method reverseOneWord was updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="the method reverseOneWord was updated" />
+    <MESSAGE value="the method isNonLetterChar was inverted" />
+    <MESSAGE value="pom.xml file was updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="pom.xml file was updated" />
   </component>
 </project>
