@@ -5,36 +5,26 @@ import java.util.regex.Pattern;
 public class Main {
     private static String reverseOneWord(String word) {
         char[] reversedWord = word.toCharArray();
-        int firstLetter;
+        int firstLetter=0;
         int lastLetter = reversedWord.length - 1;
 
-        for (firstLetter = 0; firstLetter < lastLetter; firstLetter++) {
+        while(firstLetter < lastLetter) {
 
-            if (isLetterChar(reversedWord[firstLetter]) && isLetterChar(reversedWord[lastLetter])) {
-                reverse(reversedWord, firstLetter, lastLetter);
-
-            } else if (!isLetterChar(reversedWord[firstLetter]) && isLetterChar(reversedWord[lastLetter])) {
+            if (!isLetterChar(reversedWord[firstLetter])){
                 firstLetter++;
-                reverse(reversedWord, firstLetter, lastLetter);
-
-            } else if (isLetterChar(reversedWord[firstLetter]) && !isLetterChar(reversedWord[lastLetter])) {
-                lastLetter--;
-                reverse(reversedWord, firstLetter, lastLetter);
-
-            } else {
-                firstLetter++;
-                lastLetter--;
-                reverse(reversedWord, firstLetter, lastLetter);
+                continue;
             }
+            if (!isLetterChar(reversedWord[lastLetter])) {
+                lastLetter--;
+                continue;
+            }
+            char temp = reversedWord[firstLetter];
+            reversedWord[firstLetter] = reversedWord[lastLetter];
+            reversedWord[lastLetter] = temp;
+            firstLetter++;
             lastLetter--;
         }
         return new String(reversedWord);
-    }
-
-    private static void reverse(char[] reversedWord, int firstLetter, int lastLetter) {
-        char temp = reversedWord[firstLetter];
-        reversedWord[firstLetter] = reversedWord[lastLetter];
-        reversedWord[lastLetter] = temp;
     }
 
     private static String reverseString(String text) {
@@ -58,7 +48,7 @@ public class Main {
         String word = "abcd";
         System.out.println(reverseOneWord(word));
 
-        String text = "a1bcd 2tfg!h";
+        String text = "a1bcd def2!ghij";
         System.out.println(reverseString(text));
     }
 }
