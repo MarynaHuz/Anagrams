@@ -24,7 +24,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>com.javajungle.Main</mainClass>
+                            <mainClass>com.javajungle.AnagramApp</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
