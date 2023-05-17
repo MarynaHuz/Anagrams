@@ -1,5 +1,6 @@
 package com.javajungle;
 
+import java.util.StringJoiner;
 import java.util.regex.Pattern;
 
 public class AnagramMaker {
@@ -29,13 +30,13 @@ public class AnagramMaker {
 
     public static String make(String sentence) {
         String[] separatedWords = sentence.split(" ");
-        StringBuilder reversedSentence = new StringBuilder();
+        StringJoiner reversedSentence = new StringJoiner(" ");
 
         for (String word : separatedWords) {
             String reversedWord = reverse(word);
-            reversedSentence.append(reversedWord).append(" ");
+            reversedSentence.add(reversedWord);
         }
-        return reversedSentence.toString().trim();
+        return reversedSentence.toString();
     }
 
     public static boolean isNonLetterChar(char character) {
