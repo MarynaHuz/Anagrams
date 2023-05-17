@@ -14,13 +14,14 @@
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.jar.plugin.version>3.2.0</maven.jar.plugin.version>
+        <junit.jupiter.version>5.9.2</junit.jupiter.version>
     </properties>
 
     <dependencies>
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-engine</artifactId>
-            <version>5.9.2</version>
+            <version>${junit.jupiter.version}</version>
         </dependency>
     </dependencies>
 
