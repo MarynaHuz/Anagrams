@@ -39,7 +39,7 @@ public class AnagramMaker {
             throw new IllegalArgumentException("Input sentence cannot be null");
         }
 
-        String[] separatedWords = sentence.split(" ",-1);
+        String[] separatedWords = sentence.split(" ", -1);
         StringJoiner reversedSentence = new StringJoiner(" ");
 
         for (String word : separatedWords) {
