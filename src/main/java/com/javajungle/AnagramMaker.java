@@ -5,6 +5,11 @@ import java.util.regex.Pattern;
 
 public class AnagramMaker {
     public static String reverse(String word) {
+
+        if (word == null) {
+            throw new IllegalArgumentException("Input word cannot be null");
+        }
+
         char[] reversedWord = word.toCharArray();
         int left = 0;
         int right = reversedWord.length - 1;
@@ -29,7 +34,12 @@ public class AnagramMaker {
     }
 
     public static String make(String sentence) {
-        String[] separatedWords = sentence.split(" ");
+
+        if (sentence == null) {
+            throw new IllegalArgumentException("Input sentence cannot be null");
+        }
+
+        String[] separatedWords = sentence.split(" ", -1);
         StringJoiner reversedSentence = new StringJoiner(" ");
 
         for (String word : separatedWords) {
